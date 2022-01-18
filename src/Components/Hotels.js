@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { format } from 'date-fns';
 import Hotel from './Hotel';
-import GoogleMap from './GoogleMap';
+// import GoogleMap from './GoogleMap';
 
 
 const Hotels = () => {
@@ -52,10 +52,10 @@ const Hotels = () => {
                         }
                     </div>
                 </section>
-                <section className='hidden xl:inline-flex xl:min-w-[600px]'>
+                {/* <section className='hidden xl:inline-flex xl:min-w-[600px]'>
                     <GoogleMap hotels={hotels} />
                     
-                </section>
+                </section> */}
             </main>
         </div>
     );

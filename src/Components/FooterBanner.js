@@ -7,8 +7,6 @@ const FooterBanner = () => {
                 <div className='relative py-4 md:py-10 cursor-pointer' >
                     <div className='relative h-[400px] min-w-[320px]  md:h-[450px] md:min-w-[480px]'>
                         <img src='/img/pic-1.jpg'
-                            layout='fill'
-                            objectFit='cover'
                             alt='img'
                             className='rounded-2xl'
                         />
@@ -22,8 +20,6 @@ const FooterBanner = () => {
                 <div className='relative md:py-10 cursor-pointer' >
                     <div className='relative h-[400px] min-w-[320px]  md:h-[450px] md:min-w-[480px]'>
                         <img src='/img/pic-2.jpg'
-                            layout='fill'
-                            objectFit='cover'
                             alt='img'
                             className='rounded-2xl '
                         />
@@ -39,8 +35,6 @@ const FooterBanner = () => {
             <section className='relative py-16 cursor-pointer mt-8 '>
                 <div className='relative '>
                     <img src='/img/footerBanner.jpg'
-                        layout='fill'
-                        objectFit='cover'
                         alt='img'
                         className='rounded-2xl h-[300px] md:h-[500px] w-[100%]'
                     />
